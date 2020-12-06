@@ -1,0 +1,668 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- CSS links -->
+   <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+   <link rel="stylesheet" type="text/css" href="css/syle.css">
+   <link rel="stylesheet" type="text/css" href="css/media.css">
+
+    <title>components</title>
+  </head>
+  <body>
+    Accordion
+<div class="container">
+  <div class="row">
+   <div class="accordion " id="accordionExample1">
+  <div class="accordion-item">
+    <h2 class="accordion-header" id="headingOne1">
+      <button class="accordion-button" type="button" data-toggle="collapse" data-target="#collapseOne1" aria-expanded="true" aria-controls="collapseOne1">
+        Accordion Item #1
+      </button>
+    </h2>
+    <div id="collapseOne1" class="accordion-collapse collapse show" aria-labelledby="headingOne1" data-parent="#accordionExample1">
+      <div class="accordion-body">
+        <strong>This is the first item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+      </div>
+    </div>
+  </div>
+  <div class="accordion-item">
+    <h2 class="accordion-header" id="headingTwo2">
+      <button class="accordion-button collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo2" aria-expanded="false" aria-controls="collapseTwo2">
+        Accordion Item #2
+      </button>
+    </h2>
+    <div id="collapseTwo2" class="accordion-collapse collapse" aria-labelledby="headingTwo2" data-parent="#accordionExample1">
+      <div class="accordion-body">
+        <strong>This is the second item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+      </div>
+    </div>
+  </div>
+  <div class="accordion-item">
+    <h2 class="accordion-header" id="headingThree3">
+      <button class="accordion-button collapsed" type="button" data-toggle="collapse" data-target="#collapseThree3" aria-expanded="false" aria-controls="collapseThree3">
+        Accordion Item #3
+      </button>
+    </h2>
+    <div id="collapseThree3" class="accordion-collapse collapse" aria-labelledby="headingThree3" data-parent="#accordionExample1">
+      <div class="accordion-body">
+        <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+      </div>
+    </div>
+  </div>
+</div>
+  </div>
+</div>
+
+Alertrs
+
+<div class="container">
+  <div class="alert alert-primary" role="alert">
+    Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+  </div>
+
+  <div class="alert alert-secondary" role="alert">
+    Lorem, ipsum dolor sit <a href="#" class="alert-link">go here</a> amet consectetur adipisicing elit.
+  </div>
+
+  <div class="alert alert-primary " role="alert">
+    <h2 class="alert-heading">Well done!</h2>
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing Lorem ipsum dolor, sit amet consectetur adipisicing elit. Iusto, magnam</p>
+    <hr>
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolorum, numquam!</p>
+  </div>
+
+   <div class="alert alert-secondary alert-dismissible fade show" role="alert">
+    Lorem, ipsum dolor sit <a href="#" class="alert-link">go here</a> amet consectetur adipisicing elit.
+    <button type="button" class="btn-close" data-dismiss="alert" aria-label="Close"></button>
+  </div>
+</div>
+
+Badge
+
+<div class="container">
+<h1>Heading<span class="badge bg-primary">new</span></h1>
+
+<button type="button" class="btn btn-info">
+  notifications<span class="badge bg-primary" >4</span>
+</button>
+<br><br>
+<span class="badge bg-primary">colored</span>
+<span class="badge rounded-pill bg-secondary">colored</span>
+<span class="badge rounded-pill bg-success">colored</span>
+<span class="badge bg-info text-dark">colored</span>
+<span class="badge bg-danger">colored</span>
+<span class="badge bg-warning">colored</span>
+</div>
+
+Breadcrumb
+
+<div class="container">
+  <nav aria-label="breadcrumb">
+    <ol class="breadcrumb">
+      <li class="breadcrumb-item active"><a href="#">Home</a></li>
+      
+    </ol>
+  </nav>
+</div>
+
+Button
+
+<div class="container">
+  <div class="d-grid gap-3">
+    <button type="button" class="btn btn-primary">Button</button>
+     <button type="button" class="btn btn-primary">Button</button>
+  </div>
+</div>
+<br>
+<div class="container">
+  <div class="d-grid gap-3 d-md-block ">
+    <button type="button" class="btn btn-primary">Button</button>
+     <button type="button" class="btn btn-primary">Button</button>
+  </div>
+</div>
+
+<div class="container">
+  <div class="d-grid gap-3 col-6 mx-auto ">
+    <button type="button" class="btn btn-primary">Button</button>
+     <button type="button" class="btn btn-primary">Button</button>
+  </div>
+</div>
+
+btn grp
+
+<div class="container">
+  <div class="btn-group mb-3" role="group">
+    <button type="button" class="btn btn-primary">Button</button>
+     <button type="button" class="btn btn-primary">Button</button>
+     <button type="button" class="btn btn-primary">Button</button>
+     <button type="button" class="btn btn-primary">Button</button>
+  </div>
+  <br>
+<div class="btn-group mb-3" role="group">
+  <a href="#" class="btn btn-primary active">Active link</a>
+  <a href="#" class="btn btn-danger">link</a>
+  <a href="#" class="btn btn-warning">link</a>
+
+</div>
+
+<div class="btn-toolbar " role="toolbar">
+<div class="btn-group mb-3 mr-3 align-baseline" role="group">
+    <button type="button" class="btn btn-primary">Button</button>
+     <button type="button" class="btn btn-primary">Button</button>
+     <button type="button" class="btn btn-primary">Button</button>
+     <button type="button" class="btn btn-primary">Button</button>
+  </div>
+
+  <div class="input-group">
+    <div class="input-group-text">@</div>
+    <input type="text" name="" id="" class="form-control" placeholder="username">
+  </div>
+  </div>
+</div>
+
+card
+
+<div class="container">
+  <div class="row">
+    <div class="col-md-6">
+      <div class="card">
+        <div class="card-header">
+          <ul class="nav nav-tabs card-header-tabs">
+            <li class="nav-item">
+              <a class="nav-link active" href="#">Action</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Link</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link disabled" href="#">disabled</a>
+            </li>
+
+          </ul>
+        </div>
+        <img src="images/mug.jpg" class="card-img-top" alt="mug">
+         <div class="card-body">
+           <h2 class="card-title">Lorem ipsum dolor sit amet.</h2>
+           <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Error nobis laboriosam officia dolores veritatis eligendi placeat assumenda illum eos commodi.</p>
+<ul class="list-group list-group-flush">
+    <li class="list-group-item">Cras justo odio</li>
+    <li class="list-group-item">Dapibus ac facilisis in</li>
+    <li class="list-group-item">Vestibulum at eros</li>
+  </ul>
+  <a href="#" class="card-link">Card link</a>
+  <div class="card-footer text-muted">
+    <button type="button" class="btn btn-primary">Visit more</button>
+  </div>
+         </div>
+      </div>
+    </div>
+
+   <div class="col-md-6">
+      <div class="card">
+       
+        <img src="images/mug.jpg" class="card-img" alt="mug">
+         <div class="card-img-overlay">
+           <h2 class="card-title text-light">Lorem ipsum dolor sit amet.</h2>
+           <p class="card-text text-light">Lorem ipsum dolor sit amet consectetur adipisicing elit. Error nobis laboriosam officia dolores veritatis eligendi placeat assumenda illum eos commodi.</p>
+
+  <a href="#" class="card-link">Card link</a>
+  <div class="card-footer text-muted">
+    <button type="button" class="btn btn-primary">Visit more</button>
+  </div>
+         </div>
+      </div>
+    </div>
+  
+  </div>
+</div>
+
+carousel
+
+<div class="container">
+  <div class="row">
+    <div id="carouselEx" class="carousel slide carousel-fade" data-ride="carousel">
+
+ <ol class="carousel-indicators">
+    <li data-target="#carouselEx" data-slide-to="0" class="active"></li>
+    <li data-target="#carouselEx" data-slide-to="1"></li>
+    <li data-target="#carouselEx" data-slide-to="2"></li>
+  </ol>
+
+  <div class="carousel-inner" data-interval="5000">
+    <div class="carousel-item active">
+      <img src="images/1.jpg" class="d-block w-100" alt="...">
+      <div class="carousel-caption d-none d-md-block">
+        <h5>First slide label</h5>
+        <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+      </div>
+    </div>
+    <div class="carousel-item" data-interval="5000">
+      <img src="images/2.jpg" class="d-block w-100" alt="...">
+      <div class="carousel-caption d-none d-md-block">
+        <h5>2nd slide label</h5>
+        <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+      </div>
+    </div>
+    <div class="carousel-item" data-interval="5000">
+      <img src="images/3.jpg" class="d-block w-100" alt="...">
+      <div class="carousel-caption d-none d-md-block">
+        <h5>3rd slide label</h5>
+        <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+      </div>
+    </div>
+  </div>
+
+
+  <a class="carousel-control-prev" href="#carouselEx" role="button" data-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </a>
+  <a class="carousel-control-next" href="#carouselEx" role="button" data-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </a>
+</div>
+  </div>
+</div>
+
+collapse
+
+<div class="container">
+  <a class="btn btn-primary" data-toggle="collapse" href="#collapse" role="button" aria-expanded="false" aria-controls="collapse">
+    
+    link
+  </a>
+  
+  <div class="collapse" id="collapse">
+    <div class="card card-body">
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi quos molestias, dolorum facere aliquam vitae commodi. Itaque, natus quae totam, velit nisi reiciendis, animi non possimus voluptas repellendus excepturi voluptatem.</p>
+    </div>
+  </div>
+  </div>
+  <br>
+
+  <div class="container">
+    <button type="button" class="btn btn-primary" data-toggle="collapse" data-target="#mlt1" aria-expanded="false">Link</button>
+    <button type="button" class="btn btn-primary" data-toggle="collapse" data-target="#mlt2" aria-expanded="false">Link</button>
+    <button type="button" class="btn btn-primary" data-toggle="collapse" data-target=".lt" aria-expanded="false">Link both</button>
+
+<div class="row">
+  <div class="col">
+    <div class="collapse lt" id="mlt1">
+      <div class="card card-body">
+        <p>Lorem, ipsum dolor sit, amet consectetur adipisicing elit. Veniam possimus esse, quisquam repudiandae sunt minima maiores nihil mollitia, sint maxime voluptas, autem! Veniam, inventore ipsa voluptatum atque assumenda! Similique quam aperiam tempora facilis, ducimus molestias, aliquid nihil sit recusandae eveniet.</p>
+      </div>
+    </div>
+  </div>
+  <div class="col">
+    <div class="collapse lt" id="mlt2">
+      <div class="card card-body">
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Suscipit ducimus, itaque cupiditate architecto sapiente, inventore, officia iusto, quo exercitationem omnis aut veniam aliquam earum ex praesentium dolorum voluptatibus vero ipsa eius ad. Esse reprehenderit atque dolorum eligendi, maiores molestias quis.</p>
+      </div>
+    </div>
+  </div>
+</div>
+  </div>
+
+Dropdown
+<div class="container">
+  <div class="dropdown">
+    <button type="button" class="btn btn-success dropdown-toggle" data-toggle="dropdown" id="dropdown">Dropdown</button>
+
+  <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="dropdown">
+    <li><a class="dropdown-item active" href="#">Action</a></li>
+    <li><a class="dropdown-item" href="#">Another action</a></li>
+    <li><a class="dropdown-item" href="#">Something else here</a></li>
+  </ul>
+  </div>
+</div>
+
+<div class="container">
+  <div class="btn-group">
+<button type="button" class="btn btn-danger dropdown-toggle mr-2 btn-lg" data-toggle="dropdown" aria-expanded="false">
+    Action
+  </button>
+  <button type="button" class="btn btn-primary dropdown-toggle mr-2" data-toggle="dropdown" aria-expanded="false">
+    Action
+  </button>
+  <button type="button" class="btn btn-secondary dropdown-toggle mr-2" data-toggle="dropdown" aria-expanded="false">
+    Action
+  </button>
+  <button type="button" class="btn btn-warning dropdown-toggle mr-2" data-toggle="dropdown" aria-expanded="false">
+    Action
+  </button>
+
+  <ul class="dropdown-menu dropdown-menu-dark" >
+    <li><a class="dropdown-item" href="#">Action</a></li>
+    <li><a class="dropdown-item" href="#">Another action</a></li>
+    <li><a class="dropdown-item" href="#">Something else here</a></li>
+  </ul>
+  </div>
+ </div>
+ <br>
+
+ <div class="container">
+ <div class="btn-group dropup"> 
+
+  <button type="button" class="btn btn-danger">Action</button>
+  <button type="button" class="btn btn-danger dropdown-toggle dropdown-toggle-split mr-2" data-toggle="dropdown" aria-expanded="false">
+    <span class="visually-hidden">Toggle Dropdown</span>
+  </button>
+ 
+ <button type="button" class="btn btn-success">Action</button>
+  <button type="button" class="btn btn-success dropdown-toggle dropdown-toggle-split mr-2" data-toggle="dropdown" aria-expanded="false">
+    <span class="visually-hidden">Toggle Dropdown</span>
+  </button>
+ 
+ <button type="button" class="btn btn-info">Action</button>
+  <button type="button" class="btn btn-info dropdown-toggle dropdown-toggle-split mr-2" data-toggle="dropdown" aria-expanded="false">
+    <span class="visually-hidden">Toggle Dropdown</span>
+  </button>
+ 
+ <button type="button" class="btn btn-warning">Action</button>
+  <button type="button" class="btn btn-warning dropdown-toggle dropdown-toggle-split mr-2" data-toggle="dropdown" aria-expanded="false">
+    <span class="visually-hidden">Toggle Dropdown</span>
+  </button>
+
+  <ul class="dropdown-menu" >
+    <li><a class="dropdown-item" href="#">Action</a></li>
+    <li><a class="dropdown-item" href="#">Another action</a></li>
+    <li><a class="dropdown-item" href="#">Something else here</a></li>
+  </ul>
+  </div>
+  </div>
+  <br>
+ List group
+ <div class="container">
+  <div class="row">
+    <div class="col-md-8">
+   <ul class="list-group">
+     <li class="list-group-item list-group-item-action list-group-item-primary">Lorem ipsum dolor sit amet.</li>
+     <li class="list-group-item list-group-item-action list-group-item-secondary">Lorem ipsum dolor sit amet.</li>
+     <li class="list-group-item list-group-item-action list-group-item-success">Lorem ipsum dolor sit amet.</li>
+     <li class="list-group-item list-group-item-action list-group-item-info">Lorem ipsum dolor sit amet.</li>
+     <li class="list-group-item list-group-item-action list-group-item-danger">Lorem ipsum dolor sit amet.</li>
+     <li class="list-group-item list-group-item-action list-group-item-warning">Lorem ipsum dolor sit amet.</li>
+
+   </ul>
+   </div>
+   </div>
+ </div>
+
+ Modals
+<div class="container">
+ <!-- button trigger modal -->
+ <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#modal" >Modal trigger</button>
+
+<!-- Modals -->
+<div class="modal fade" id="modal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-fullscreen-sm-down">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h2 class="modal-title" >Modal title</h2>
+        <button type="button" class="btn-close" data-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <p>
+          <h3>Popover title</h3>
+            <button type="button" class="btn btn-warning" data-toggle="popover" title="Popover title" data-content="Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+  tempor incididunt ut labore et dolore magna aliqua. Ut enim ad " >Popover Button</button>
+  <hr>
+           <br>
+          Lorem ipsum dolor sit amet consectetur adipisicing, elit. Minus, ex. Lorem ipsum dolor sit amet.
+
+        </p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Save changes</button>
+      </div>
+    </div>
+  </div>
+</div>
+</div>
+
+<br>
+<div class="container">
+ <!-- button trigger modal -->
+ <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#modal1" >Modal trigger</button>
+
+<!-- Modals -->
+<div class="modal fade" id="modal1" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-scrollable">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h2 class="modal-title" >Modal title</h2>
+        <button type="button" class="btn-close" data-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing, elit. Minus, Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt placeat laborum nostrum vitae natus quisquam quae doloribus sit possimus facere? Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis eos blanditiis mollitia laboriosam delectus est sint, dicta quod culpa qui. Molestiae nam voluptate ipsa repellendus animi? Distinctio at necessitatibus aliquid exercitationem vitae placeat, beatae debitis natus dolor accusantium iure cum dolorem asperiores veniam, labore laudantium nemo iste odit harum fugit sint cumque eius perspiciatis. Obcaecati at veniam, ducimus quaerat ad placeat nobis inventore facilis, aperiam. Autem, reiciendis, itaque a dolorum mollitia magni ipsam temporibus inventore quisquam fuga delectus quos pariatur minus soluta fugiat ullam laboriosam repellendus qui id hic similique, earum quidem nihil. Quo atque, expedita voluptas, vitae officiis dicta. Lorem ipsum dolor, sit amet consectetur adipisicing, elit. Quia aliquam ullam illo ea officia ut qui accusamus porro non doloribus, error similique ex id, unde cum vitae ratione numquam voluptatum vel magnam ad soluta consequuntur! Accusamus saepe unde modi dolor est libero in fuga quisquam totam quo! Veniam placeat harum ex, dicta natus asperiores similique dignissimos distinctio quibusdam reprehenderit sed in, repellendus illum tempore vel, voluptas at sunt ut atque totam ad quod quidem tempora modi nemo. Quae corrupti repellendus reiciendis tempore neque debitis error a officiis atque, ipsam ipsa odit temporibus eos modi corporis voluptas amet, nihil? Aliquid nulla libero soluta non itaque ipsum harum excepturi, hic beatae quaerat, et sint commodi quidem quasi facere veritatis, repudiandae! Modi laboriosam quod ullam quas rem quae eligendi, dolor, amet quia repellendus vitae harum animi quibusdam doloremque sunt quo labore explicabo fugiat, earum quaerat porro impedit. Quam corrupti voluptas nesciunt possimus dolore nulla quibusdam, blanditiis vero neque animi veniam saepe in repudiandae omnis quas provident totam exercitationem iste dolores nostrum excepturi modi. Necessitatibus minima officiis laborum placeat fugit ex accusamus. Impedit atque explicabo harum exercitationem corrupti quam necessitatibus possimus asperiores illo maiores iusto, animi. A, quia suscipit aliquid. Provident, aperiam enim totam.
+        </p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Save changes</button>
+      </div>
+    </div>
+  </div>
+</div>
+</div>
+
+Nav & tab
+<ul class="nav justify-content-center bg-info">
+  <li class="nav-item">
+    <a class="nav-link active" href="#">Home</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" href="#">About</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" href="#">Contact</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" href="#">Images</a>
+  </li>
+
+</ul>
+
+<br>
+
+<ul class="nav justify-content-end bg-warning ">
+  <li class="nav-item">
+    <a class="nav-link active" href="#">Home</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" href="#">About</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" href="#">Contact</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" href="#">Images</a>
+  </li>
+
+</ul>
+<br>
+
+<ul class="nav nav-tabs ">
+  <li class="nav-item">
+    <a class="nav-link active" href="#">Home</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" href="#">About</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" href="#">Contact</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" href="#">Images</a>
+  </li>
+
+</ul>
+
+<br>
+
+<ul class="nav nav-pills nav-fill flex-column flex-sm-row ">
+  <li class="nav-item">
+    <a class="nav-link active" href="#">Home</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" href="#">About</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" href="#">Contact</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" href="#">Images</a>
+  </li>
+
+</ul>
+
+Navbar
+
+<nav class="navbar navbar-expand-lg bg-dark navbar-dark">
+  <a class="navbar-brand" href="#">
+    <img src="images/logo1.jpg" alt="logo" width="60" height="60">
+  </a>
+  <ul class="navbar-nav ml-auto">
+    <li class="nav-item"><a class="nav-link" href="#">Home</a></li>
+    <li class="nav-item"><a class="nav-link" href="#">About</a></li>
+    <li class="nav-item"><a class="nav-link" href="#">Contact</a></li>
+    
+
+  </ul>
+   <form class="d-flex">
+      <input class="form-control mr-2" type="search" placeholder="Search" aria-label="Search">
+      <button class="btn btn-outline-success" type="submit">Search</button>
+    </form>
+</nav>
+
+Popover
+<div class="container">
+  <button type="button" class="btn btn-warning" data-toggle="popover" data-trigger="focus" title="Popover title" data-content="Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+  tempor incididunt ut labore et dolore magna aliqua. Ut enim ad " >Popover Button</button>
+</div>
+
+Multiple progres bar
+<div class="progress">
+  <div class="progress-bar" role="progressbar" style="width:15%" aria-valuenow="15" aria-valuemin="0" aria-valuemax="100"></div>
+  <div class="progress-bar bg-success" role="progressbar" style="width:45%" aria-valuenow="45" aria-valuemin="0" aria-valuemax="100"></div>
+  <div class="progress-bar bg-info" role="progressbar" style="width:25%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+
+</div> 
+
+Scrollspy
+ <div class="container">
+<nav id="scroll1" class="navbar navbar-expand-lg bg-dark navbar-dark">
+  <a class="navbar-brand" href="#">
+    Navbar
+  </a>
+  <ul class="nav nav-pills">
+    <li class="nav-item"><a class="nav-link" href="#home">Home</a></li>
+    <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+    <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+    <li class="nav-item dropdown">
+      <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-expanded="false">Dropdown</a>
+      <ul class="dropdown-menu dropdown-menu-right">
+        <li><a class="dropdown-item" href="#one">one</a></li>
+        <li><a class="dropdown-item" href="#two">two</a></li>
+        <li><hr class="dropdown-divider"></li>
+        <li><a class="dropdown-item" href="#three">three</a></li>
+      </ul>
+    </li>
+
+  </ul>
+ </nav >
+<div data-spy="scroll" data-target="#scroll1" data-offset="0" tabindex="0">
+  <h4 id="home">Home</h4>
+  <p>Lorem ipsum, dolor sit amet, consectetur adipisicing elit. Explicabo nesciunt dolor voluptatum iusto vero, quaerat ratione. Quae facilis error eaque quaerat vel deserunt debitis quidem ex assumenda molestiae tempore, consequatur.</p>
+    <h4 id="about">About</h4>
+  <p>Lorem ipsum, dolor sit amet, consectetur adipisicing elit. Explicabo nesciunt dolor voluptatum iusto vero, quaerat ratione. Quae facilis error eaque quaerat vel deserunt debitis quidem ex assumenda molestiae tempore, consequatur.</p>
+    <h4 id="contact">Contact</h4>
+  <p>Lorem ipsum, dolor sit amet, consectetur adipisicing elit. Explicabo nesciunt dolor voluptatum iusto vero, quaerat ratione. Quae facilis error eaque quaerat vel deserunt debitis quidem ex assumenda molestiae tempore, consequatur.</p>
+  <h4 id="one">one</h4>
+  <p>Lorem ipsum, dolor sit amet, consectetur adipisicing elit. Explicabo nesciunt dolor voluptatum iusto vero, quaerat ratione. Quae facilis error eaque quaerat vel deserunt debitis quidem ex assumenda molestiae tempore, consequatur.</p>
+  <h4 id="two">two</h4>
+  <p>Lorem ipsum, dolor sit amet, consectetur adipisicing elit. Explicabo nesciunt dolor voluptatum iusto vero, quaerat ratione. Quae facilis error eaque quaerat vel deserunt debitis quidem ex assumenda molestiae tempore, consequatur.</p>
+  <h4 id="three">three</h4>
+  <p>Lorem ipsum, dolor sit amet, consectetur adipisicing elit. Explicabo nesciunt dolor voluptatum iusto vero, quaerat ratione. Quae facilis error eaque quaerat vel deserunt debitis quidem ex assumenda molestiae tempore, consequatur.</p>
+</div>
+</div> 
+
+spinners
+<br>
+<div class="container">
+<div class="spinner-border" role="status">
+  <span class="visually-hidden">Loading..</span>
+</div>
+
+<div class="spinner-border text-primary" role="status">
+  <span class="visually-hidden">Loading..</span>
+</div>
+<div class="spinner-border text-success" role="status">
+  <span class="visually-hidden">Loading..</span>
+</div>
+<div class="spinner-border text-warning" role="status">
+  <span class="visually-hidden">Loading..</span>
+</div>
+<br>
+<div class="spinner-grow">
+  <span class="visually-hidden">Loading..</span>
+  
+</div>
+<div class="spinner-grow text-success" role="status">
+  <span class="visually-hidden">Loading...</span>
+</div>
+<div class="spinner-grow text-danger" role="status">
+  <span class="visually-hidden">Loading...</span>
+</div>
+<div class="spinner-grow text-warning" role="status">
+  <span class="visually-hidden">Loading...</span>
+</div>
+<div class="spinner-grow text-info" role="status">
+  <span class="visually-hidden">Loading...</span>
+</div>
+<br>
+<button type="button" class="btn btn-danger" disabled="">
+  <span class="spinner-border spinner-border-sm " role="status" aria-hidden="true"></span>
+  Loading
+</button>
+</div>
+
+Toasts
+<div class="toast" role="alert" aria-live="assertive" aria-atomic="true">
+  <div class="toast-header">
+    <img src="..." class="rounded mr-2" alt="...">
+    <strong class="mr-auto">Bootstrap</strong>
+    <small>11 mins ago</small>
+    <button type="button" class="btn-close" data-dismiss="toast" aria-label="Close"></button>
+  </div>
+  <div class="toast-body">
+    Hello, world! This is a toast message.
+  </div>
+</div>
+
+tooltip
+<button type="button" class="btn btn-secondary" data-toggle="tooltip" data-placement="top" title="Tooltip on top">
+  Tooltip on top
+</button>
+<button type="button" class="btn btn-secondary" data-toggle="tooltip" data-placement="right" title="Tooltip on right">
+  Tooltip on right
+</button>
+<button type="button" class="btn btn-secondary" data-toggle="tooltip" data-placement="bottom" title="Tooltip on bottom">
+  Tooltip on bottom
+</button>
+<button type="button" class="btn btn-secondary" data-toggle="tooltip" data-placement="left" title="Tooltip on left">
+  Tooltip on left
+</button>
+    <!--js links-->
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/script.js"></script>
+    
+  </body>
+</html>
